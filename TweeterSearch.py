@@ -12,7 +12,7 @@ sys.setdefaultencoding('utf8')
 # this function return a tuple containing the diffrents fields of a tweet according to my need.
 #Of course you can add other fields if needed
 def processTweetSearch(tweet):    	
-    contributors=tweet['contributors'] 
+        contributors=tweet['contributors'] 
 	truncated=tweet['truncated'] 
 	text=tweet['text'] 
 	is_quote_status=tweet['is_quote_status'] 
@@ -28,8 +28,8 @@ def processTweetSearch(tweet):
 	id_str=tweet['id_str'] 
 	favorited=tweet['favorited']  
 	user_followers=tweet['user']['followers_count']
-    user_location=tweet['user']['location']
-    user_name=tweet['user']['screen_name']
+        user_location=tweet['user']['location']
+        user_name=tweet['user']['screen_name']
 	geo=tweet['geo'] 
 	in_reply_to_user_id_str=tweet['in_reply_to_user_id_str']  	
 	lang=tweet['lang'] 
