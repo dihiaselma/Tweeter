@@ -40,7 +40,7 @@ def processTweetSearch(tweet):
         return (contributors, truncated, text, is_quote_status, in_reply_to_status_id, id, favorite_count, retweeted, coordinates, source, in_reply_to_screen_name,in_reply_to_user_id, retweet_count, id_str,favorited, retweeted,      user_followers,user_location,user_name, geo, in_reply_to_user_id_str, lang,  created_at, in_reply_to_status_id_str, place)
 
    
-with open('Brandt.dz_Tweeter.csv', 'wb') as file:
+with open('Tweeter.csv', 'wb') as file:
       i=0        
       w = csv.writer(file)        
       w.writerow(["contributors", "truncated", "text","is_quote_status", "in_reply_to_status_id", "id", "favorite_count", "retweeted", "coordinates", "source", "in_reply_to_screen_name", "in_reply_to_user_id", "retweet_count","id_str", "favorited", "retweeted", "user_followers","user_location","user_name","geo","in_reply_to_user_id_str", "lang", "created_at", "in_reply_to_status_id_str", "place"])                
